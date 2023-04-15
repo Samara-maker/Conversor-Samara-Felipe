@@ -1,0 +1,32 @@
+﻿<Window x:Class="Conversor_ST.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conversor_ST"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border Background="#C0C0C0"/>
+
+        <StackPanel>
+            <Button x:Name="btConverter" 
+                    Content="CONVERTER" 
+                    HorizontalAlignment="Left" 
+                    Margin="318,264,0,0" 
+                    VerticalAlignment="Top" 
+                    Height="53" Width="140" 
+                    FontWeight="Bold" FontSize="18"
+                    Click="btConverter_Click"/>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="MENU DO CONVERSOR DE MOEDAS:" FontSize="36" FontWeight="Bold" Margin="50,10,0,50" Width="678" ></TextBlock>
+            <TextBlock FontSize="36" FontWeight="Bold" Width="546" Height="95" Margin="20,0,20,20"><Run Text="A forma mais fácil e segura de "/><LineBreak/><Run Text="    converter o seu dinheiro:"/></TextBlock>
+            <TextBlock Text="Samara Hespanhol e Felipe Torejiani" FontSize="20" Width="351" Height="33" FontWeight="Bold" Foreground="#FF085902" HorizontalAlignment="Left" Margin="410,165,50,50"/>
+        </StackPanel>
+
+
+
+
+    </Grid>
+</Window>
